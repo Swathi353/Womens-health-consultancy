@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.24),rgba(0, 0, 0, 0.24)),url(meiying-ng-OrwkD-iWgqg-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+} 
+.navbar{
+    width: 45%px;
+    margin: auto;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.icon{
+    width: 100px;
+    float: left;
+    height: 50px;
+    cursor: pointer;
+}
+.logo{
+    color: #cc5c70;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #e63e62;
+    font-family: Arial;
+    text-transform: uppercase;    transition: 0.4s ease-in-out;
+}
+.navbar ul li a:hover{
+    color: #A50B56;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #e63e62;
+    position: absolute;
+    left: 0; bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+.content h1{
+    font-size: 70px;
+    margin-top: 80px;
+}
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}

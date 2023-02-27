@@ -1,0 +1,17 @@
+*{
+    background-color: rgb(168, 239, 239);
+}
+.logo{
+    color: #165793;
+    font-size: 20px;
+    font-family: Arial;
+    align-content: center;
+}
+.banner {
+    position:fixed;
+    background-image: url('log.jpg');
+    width: 100px;
+    height: 100px;
+    background-color: mediumaquamarine;
+    top: 40px;
+  }

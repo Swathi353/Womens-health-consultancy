@@ -1,0 +1,55 @@
+body  
+{  
+    background-image: url("doc.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    margin: auto;
+    font-family: 'sans-serif'; 
+}  
+.consult{  
+        width: 382px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 0 0 450px;  
+        padding: 80px;  
+        border-radius: 15px ;  
+          
+}  
+h1{  
+    text-align: center;  
+    color: black;  
+    padding: 30px;  
+}  
+label{  
+    color: lightyellow;  
+    font-size: 17px;  
+}  
+button
+{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+}  
+#log{  
+    width: 300px;  
+    height: 30px;  
+    <! border: none; > 
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: blue;  
+  
+  
+}  
+ 
+}  

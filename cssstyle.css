@@ -1,0 +1,55 @@
+body  
+{  
+    background-image: url("wall1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    margin: auto;
+    font-family: 'sans-serif'; 
+}  
+.login{  
+        width: 382px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 0 0 450px;  
+        padding: 80px;  
+        background: lightblue;  
+        border-radius: 15px ; 
+          
+}  
+h1{  
+    text-align: center;  
+    color: darkblue; 
+    text-decoration-color: darkblue; 
+    padding: 30px;  
+}
+h9{  
+    text-align: center;  
+    color: black;  
+    padding: 30px;  
+}  
+label{  
+    color: black;  
+    font-size: 17px;  
+}
+a.btn{
+    text-decoration: none;
+    color: darkblue;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration-color: pink;
+}
+.primary{
+    background-color: white;
+}  
+#log{  
+    width: 300px;  
+    height: 30px;  
+    <! border: none; > 
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: blue;  
+  
+  
+}  
+   
